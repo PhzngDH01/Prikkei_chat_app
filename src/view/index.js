@@ -123,3 +123,22 @@ export let renderErrorMessage = (id, text) => {
     errorMessage.innerText = text;
   }
 };
+
+
+
+
+
+
+
+/**
+ * Git satus (kiểm tra trạng thái của file)
+ * (Unstage và Staging)
+ * 
+ * Git stage . (đẩy file vừa được chỉnh sửa vào trạng thái staging)
+ * 
+ * Git commit -m "Message"
+ * Đẩy file vào trạng thái commit trước khi được push lên remote repo
+ * 
+ * Git push origin [Tên nhánh](master)
+ * Đẩy file lên remote repo tại nhánh master
+ */
