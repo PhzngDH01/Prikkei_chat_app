@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container_foget {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.container_foget .imgRikkei .imgRikkei1 {
+  width: 100px;
+  padding-top: 30px;
+}
+.container_foget .title1 {
+  font-size: 230%;
+  color: rgb(43, 222, 49);
+  padding-bottom: 20px;
+}
+.container_foget #lognin_box {
+  padding: 20px;
+  width: 350px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.container_foget #lognin_box .title2 {
+  font-size: 18px;
+  padding: 5px;
+  color: rgb(219, 42, 235);
+}
+.container_foget #lognin_box .button1 .button {
+  padding: 10px;
+  width: 200px;
+  background-color: chartreuse;
+  border: 0;
+  color: red;
+  border-radius: 10px;
+}
+.container_foget #lognin_box .button1 .button:hover {
+  cursor: pointer;
+  color: darkseagreen;
+  background-color: aquamarine;
+}
+.container_foget #lognin_box .button1 {
+  padding: 10px;
+}
+.container_foget #lognin_box .inPut_box {
+  width: 90%;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid rgb(222, 69, 236);
+}
+.container_foget #lognin_box .inPut_box::placeholder {
+  padding: 10px;
+  margin-left: 20px;
+  color: rgb(83, 39, 228);
+}
+.container_foget #lognin_box {
+  padding: 25px;
+  width: 350px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  color: darkgreen;
+}
+.container_foget .lognin_box2:hover {
+  cursor: pointer;
+  background-color: rgb(198, 97, 97);
+}
+
+body {
+  /* background: #de8859;
+      background: -webkit-linear-gradient(to right, #69df57, #818181);
+      background: linear-gradient(to right, #69df57, #c733c2);
+      min-height: 100vh; */
+  background-color: rgb(195, 195, 196);
+}
+.container_foget .lognin_box2 {
+  text-decoration: none;
+}

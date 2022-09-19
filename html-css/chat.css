@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.topPic .title {
+  font-weight: 200px;
+  display: flex;
+  justify-content: center;
+}
+.topPic {
+  border-bottom: 1px solid rgb(208, 208, 208);
+  background-color: aqua;
+  padding: 15px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.container .newConv {
+  border: 1px solid rgb(208, 208, 208);
+  width: 25%;
+  text-align: center;
+  height: 645px;
+}
+.container .firstConv {
+  border: 1px solid rgb(208, 208, 208);
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+.container .spaceConv {
+  width: 25%;
+}
+.container .newConv .title1 {
+  border: 1px solid rgb(208, 208, 208);
+  height: 6%;
+  padding: 8px;
+  font-size: 20px;
+}
+.container .firstConv .title2 {
+  border: 1px solid rgb(208, 208, 208);
+  height: 6%;
+  padding: 8px;
+  font-size: 20px;
+}
+.container .firstConv .chat::placeholder {
+  font-size: 15px;
+}
+.container .firstConv .chat {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.container .firstConv .chat .chat1 {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  height: 40px;
+}
+.container .firstConv .chat .button1 {
+  width: 20%;
+  height: 40px;
+  background-color: aquamarine;
+  border: 0;
+}
